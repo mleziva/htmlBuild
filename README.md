@@ -7,13 +7,20 @@ This VS Code extension replaces placeholders in HTML files with values in a json
 -----------------------------------------------------------------------------------------------------------
 To get started, open the folder which contains your html files. Run the HtmlBuild command of the extension for the first time to generate the sample appsettings.json file.
 
+![HTMLBuild Command](/images/htmlbuildcommand.png)
+
 Review the created file
+![AppSettings.json](/images/appsettings.png)
 
 Update your html file to contain some settings to replace
+![HTML file with settings](/images/htmlfile.png)
 
 Run the BuildHtml command to generate the output files
+![HTMLBuild Command](/images/htmlbuildcommand.png)
+
 
 Review the output files
+![HTMLBuild Command](/images/devoutput.png)
 
 -----------------------------------------------------------------------------------------------------------
 ## Notes
