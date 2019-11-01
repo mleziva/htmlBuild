@@ -1,60 +1,36 @@
-# HTML Build README
+# VSCode - HTMLBuild README
 
-This VS Code extension replaces placeholders in HTML files with values in a json file
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This VS Code extension replaces placeholders in HTML files with values in a json file. Use it to manage and generate HTML files for different environments. Based on the azure-ad-b2c vscode extensions available here: https://github.com/azure-ad-b2c/vscode-extension
 
 
-## Requirements
+## Get Started
+-----------------------------------------------------------------------------------------------------------
+To get started, open the folder which contains your html files. Run the HtmlBuild command of the extension for the first time to generate the sample appsettings.json file.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Review the created file
 
-## Extension Settings
+Update your html file to contain some settings to replace
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Run the BuildHtml command to generate the output files
 
-For example:
+Review the output files
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+-----------------------------------------------------------------------------------------------------------
+## Notes
+The logic for the replace works on a case-insensitive match to {Settings:[settingname]}, so if you have content in your html file that happens to match that, it will be erroneously replaced.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+None
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Very first release ever
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release
 
 -----------------------------------------------------------------------------------------------------------
 
-## Working with Markdown
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**

@@ -1,7 +1,8 @@
 {
-	"name": "helloworld",
-	"displayName": "HelloWorld",
-	"description": "",
+	"name": "htmlbuild",
+	"displayName": "HtmlBuild",
+	"publisher":"Mleziva",
+	"description": "Compiles HTML files using templates and json settings",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.39.0"
@@ -10,16 +11,11 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*",
-		"onCommand:extension.helloWorld"
+		"*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			},
 			{
                 "command": "extension.html.build",
                 "title": "HTML build"
